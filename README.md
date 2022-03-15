@@ -54,7 +54,13 @@
 <strong>Description:</strong> View all available tickets<br><br>
 </p>
 
+<h2>View all tickets and sort by status</h2>
 
+<p>
+<strong>Method:</strong> GET<br>
+<strong>Endpoint:</strong> /view_ticket/sort_by_status<br>
+<strong>Description:</strong> View all available tickets and will be sorted by status (pending, accepted, resolved, rejected in order)<br><br>
+</p>
 
 
 
