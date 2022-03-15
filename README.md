@@ -18,12 +18,12 @@
 
 <p>
 <strong>Method:</strong> POST<br>
-<strong>Endpoint:</strong> /create_ticket<br><br>
+<strong>Endpoint:</strong> /create_ticket<br>
 
 <strong>Parameters (Essential)</strong><br>
-- title: String<br>
-- description: String<br>
-- name: String<br>
-- tel: String<br>
-- email: String<br>
+- title:             String<br>
+- description:       String<br>
+- name:              String<br>
+- tel:               String<br>
+- email:             String<br>
 </p>
