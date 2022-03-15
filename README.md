@@ -1,9 +1,8 @@
-# manage-ticket-api
-
 <h1>INTRODUCTION</h1>
 
 <h2>Information</h2>
 <strong>URL:</strong> https://manage-ticket-api.herokuapp.com
+
 
 <strong>Endpoints</strong>
 - POST: /create_ticket
