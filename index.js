@@ -10,9 +10,11 @@ app.listen(port, () => {
     console.log(`Example app is listening on port http://localhost:${port}`)
 })
 
-// app.get("/", (res, req) => {
-//     res.send("Hello World");
-// })
+app.get("/", (req, res) => {
+    res.send({
+        github: "https://github.com/MoeMondays/manage-ticket-api"
+    });
+})
 
 // CORS policy for response from another website
 app.use(function(req, res, next) {
@@ -45,6 +47,13 @@ app.post("/create_ticket", (req, res) => {
         update_time: time,
     }
 
+    if(ticket["title"] == undefined || ticket["description"] == undefined || ticket["contact_info"]["name"] == undefined || 
+       ticket["contact_info"]["tel"] == undefined || ticket["contact_info"]["email"] == undefined){
+        res.send({
+            error: "true",
+            message: "Invalid Infomation"
+        })
+    }
     if(mail.validate(ticket["contact_info"]["email"]) && validateTel(ticket["contact_info"]["tel"])){
         json_data['tickets'].push(ticket);
         fs.writeFileSync("ticket.json", JSON.stringify(json_data));
