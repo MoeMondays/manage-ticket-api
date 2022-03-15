@@ -34,7 +34,7 @@
 <p>
 <strong>Method:</strong> PUT<br>
 <strong>Endpoint:</strong> /update_ticket<br>
-<strong>Description:</strong> Update some infomation from a specific ticket<br>
+<strong>Description:</strong> Update some information from a specific ticket<br>
 
 <strong>Parameters</strong><br>
 - (essential) id: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int<br>
@@ -58,27 +58,28 @@
 
 <p>
 <strong>Method:</strong> GET<br>
-<strong>Endpoint:</strong> /view_ticket/sort_by_status<br>
+<strong>Endpoint:</strong> /view_ticket/all/sort_by_status<br>
 <strong>Description:</strong> View all available tickets and will be sorted by status (pending, accepted, resolved and rejected in order)<br><br>
 </p>
 
+<h2>View all tickets and sort by latest update time</h2>
 
+<p>
+<strong>Method:</strong> GET<br>
+<strong>Endpoint:</strong> /view_ticket/all/sort_by_latest<br>
+<strong>Description:</strong> View all available tickets and will be sorted by latest update time (list from latest to oldest)<br><br>
+</p>
 
+<h2>View some tickets with a specific status</h2>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>
+<strong>Method:</strong> GET<br>
+<strong>Endpoint:</strong> /view_ticket/filter_status<br>
+<strong>Description:</strong> View some tickets which will be shown by the chosen status (pending, accepted, resolved and rejected)<br><br>
+       
+<strong>Parameters</strong><br>
+- status: String ("pending", "accepted", "resolved", "rejected")
+</p>
 
 
 
