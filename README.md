@@ -2,8 +2,7 @@
 
 <h2>Information</h2>
 <strong>URL:</strong> https://manage-ticket-api.herokuapp.com
-
-
+<br>
 <strong>Endpoints</strong>
 - POST: /create_ticket
 - PUT:  /update_ticket
