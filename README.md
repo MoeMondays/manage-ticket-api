@@ -75,9 +75,9 @@
 <p>
 <strong>Method:</strong> GET<br>
 <strong>Endpoint:</strong> /view_ticket/filter_status<br>
-<strong>Description:</strong> View some tickets which will be shown by the chosen status (pending, accepted, resolved and rejected)<br><br>
+<strong>Description:</strong> View some tickets which will be shown by the chosen status (pending, accepted, resolved and rejected)<br>
        
-<strong>Parameters</strong><br>
+<strong>Parameter (essential)</strong><br>
 - status: String ("pending", "accepted", "resolved", "rejected")
 </p>
 
