@@ -51,7 +51,7 @@
 <p>
 <strong>Method:</strong> GET<br>
 <strong>Endpoint:</strong> /view_ticket/all<br><br>
-<strong>Description:</strong> Request to create a new ticket<br>
+<strong>Description:</strong> View all available tickets<br>
 </p>
 
 
