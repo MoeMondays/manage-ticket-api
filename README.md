@@ -10,7 +10,7 @@
 - GET: &nbsp;&nbsp;/view_ticket/all,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/view_ticket/all/sort_by_status,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/view_ticket/all/sort_by_latest,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/view_ticket/filter_status<br></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/view_ticket/filter_status<br><br><br></p>
        
 <h1>MANUAL</h1>
 
