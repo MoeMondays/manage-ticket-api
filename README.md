@@ -59,7 +59,7 @@
 <p>
 <strong>Method:</strong> GET<br>
 <strong>Endpoint:</strong> /view_ticket/sort_by_status<br>
-<strong>Description:</strong> View all available tickets and will be sorted by status (pending, accepted, resolved, rejected in order)<br><br>
+<strong>Description:</strong> View all available tickets and will be sorted by status (pending, accepted, resolved and rejected in order)<br><br>
 </p>
 
 
