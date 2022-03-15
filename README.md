@@ -19,6 +19,7 @@
 <p>
 <strong>Method:</strong> POST<br>
 <strong>Endpoint:</strong> /create_ticket<br>
+<strong>Description:</strong> Create a new ticket<br>
 
 <strong>Parameters (all essential)</strong><br>
 - title: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String<br>
@@ -33,6 +34,7 @@
 <p>
 <strong>Method:</strong> PUT<br>
 <strong>Endpoint:</strong> /update_ticket<br>
+<strong>Description:</strong> Update some infomation from a specific ticket<br>
 
 <strong>Parameters</strong><br>
 - (essential) id: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int<br>
@@ -41,7 +43,15 @@
 - (optional) name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String<br>
 - (optional) tel: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String (telephone number)<br>
 - (optional) email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String (email address)<br>
-- (optional) status: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String ("pending", "accepted", "resolved", "rejected")<br>
+- (optional) status: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String ("pending", "accepted", "resolved", "rejected")<br><br>
+</p>
+
+<h2>View all tickets</h2>
+
+<p>
+<strong>Method:</strong> GET<br>
+<strong>Endpoint:</strong> /view_ticket/all<br><br>
+<strong>Description:</strong> Request to create a new ticket<br>
 </p>
 
 
