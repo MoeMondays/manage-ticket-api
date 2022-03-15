@@ -14,8 +14,9 @@
        
 <h1>MANUAL</h1>
 
-<p><strong>Create a ticket</strong>
+<h2>Create a ticket</h2>
 
-Method: POST
-Endpoint: /create_ticket
+<p>
+<strong>Method:</strong> POST<br>
+<strong>Endpoint:</strong> /create_ticket<br>
 </p>
