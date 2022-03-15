@@ -1,6 +1,7 @@
 <h1>INTRODUCTION</h1>
 
 <h2>Information</h2>
+
 <p><strong>URL:</strong> https://manage-ticket-api.herokuapp.com<br><br>
 
 <strong>Endpoints</strong>
@@ -13,4 +14,8 @@
        
 <h1>MANUAL</h1>
 
+<p><strong>Create a ticket</strong>
 
+Method: POST
+Endpoint: /create_ticket
+</p>
