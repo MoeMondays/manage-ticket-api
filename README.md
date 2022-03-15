@@ -50,8 +50,8 @@
 
 <p>
 <strong>Method:</strong> GET<br>
-<strong>Endpoint:</strong> /view_ticket/all<br><br>
-<strong>Description:</strong> View all available tickets<br>
+<strong>Endpoint:</strong> /view_ticket/all<br>
+<strong>Description:</strong> View all available tickets<br><br>
 </p>
 
 
